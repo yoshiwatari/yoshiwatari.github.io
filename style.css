@@ -1,0 +1,113 @@
+@charset "UFT-8";
+/*---------------共通--------------------------------------------------------*/
+html{
+    font-size: 100%;
+    font-family: 'Yu Gothic',sans-serif;
+    color: #444444;
+}
+body{
+    line-height: 1.7;
+}
+
+a{
+    /* text-decoration: none; */
+}
+
+main{
+    margin: 10% 15%;
+}
+
+
+/*---------------メニュータブ--------------------------------------------------------*/
+.tab{
+    margin-right: auto;
+       position: fixed;
+       top: 0;
+       right: 0;
+       width: 100%;
+}
+.menu{
+    background-color: #8fd3c8;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.25rem;
+    /* margin-top: 10px; */
+    padding: 10px 30px;
+    list-style: none;
+}
+.menu a{
+    color: #ffffff;
+}
+.menu li{
+    margin-left: 36px;
+}
+.menu a{
+    text-decoration: none;
+}
+
+/*---------------最初のindexページ--------------------------------------------------------*/
+
+.name{
+    font-family: 'Yu Gothic',sans-serif;
+    font-size: 1.8rem;
+    margin: 20% 0 0 0;
+    letter-spacing: 0.05em
+}
+.belongs{
+    font-size: 1.3rem;
+    font-weight: normal;
+    margin: 2% 0;
+    line-height: 1.6;
+}
+.introduction{
+    margin: 4% 0;
+}
+.contents{
+    line-height: 2;
+}
+
+
+/*---------------他のページ--------------------------------------------------------*/
+
+.title{
+    font-family: 'Yu Gothic',sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin: 8%;
+    letter-spacing: 0.3em
+}
+
+/* 査読の有無を書くときのフォント --------------------------*/
+.main-subtitle{
+    font-size: 1.0rem;
+}
+
+/* 連絡先とかのやや大きめの見出し ------------------------*/
+.main-item1{
+    font-size: 1.5rem;
+}
+.main-item1 li{
+    color: #5db4a6;
+    margin: 2rem 0 0 0;
+}
+
+/* 見出しの中に入っているアイテム ------------------------*/
+.main-item2{
+    font-size: 1rem;
+    padding-left: 1.5rem;
+}
+.main-item2 li{
+    color: #444444;
+    margin: 0;
+    /* list-style-position: inside; */
+
+}
+
+/* 論文とかの情報を書くときのフォント調整 */
+.fonts{
+    font-family: 'Yu Gothic',sans-serif;
+}
+/* 補足情報 */
+.supplement{
+    font-size: 0.9rem;
+}
